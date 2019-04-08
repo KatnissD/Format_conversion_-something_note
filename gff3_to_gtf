@@ -1,0 +1,4 @@
+Cufflinks gff3 to gtf
+
+gffread my.gff3 -T -o my.gtf
+(See gffread -h for more information)

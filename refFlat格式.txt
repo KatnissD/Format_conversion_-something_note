@@ -1,0 +1,15 @@
+table refFlat
+  "A gene prediction with additional geneName field." 
+      (
+   1   string  geneName;           "Name of gene as it appears in Genome Browser." 
+   2   string  name;               "Name of gene" 
+   3   string  chrom;              "Chromosome name" 
+   4   char[1] strand;             "+ or - for strand" 
+   5   uint    txStart;            "Transcription start position" 
+   6   uint    txEnd;              "Transcription end position" 
+   7   uint    cdsStart;           "Coding region start" 
+   8   uint    cdsEnd;             "Coding region end" 
+   9   uint    exonCount;          -"Number of exons" 
+  10   uint[exonCount] exonStarts; "Exon start positions" --
+  11   uint[exonCount] exonEnds;   "Exon end positions" --
+      )

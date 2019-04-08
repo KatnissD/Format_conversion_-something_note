@@ -1,0 +1,16 @@
+table genePred                                                        refFlat
+ (                                                                                     
+string name; "Name of gene"                                           geneName            0
+string chrom; "Chromosome name"                                       -name-	         -1-
+char[1] strand; "+ or - for strand"                                   chrom               2
+uint txStart; "Transcription start position"                          strand              3
+uint txEnd; "Transcription end position"                              txStart             4
+uint cdsStart; "Coding region start"                                  txEnd               5
+uint cdsEnd; "Coding region end"                                      cdsStart            6
+uint exonCount; "Number of exons"                                     cdsEnd              7
+uint[exonCount] exonStarts; "Exon start positions"                    exonCount           8
+uint[exonCount] exonEnds; "Exon end positions" )                      exonStarts          9
+                                         			      exonEnds            10
+ 
+  	
+

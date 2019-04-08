@@ -1,0 +1,5 @@
+GFF3 to RefFlat for non UCSC genomes
+1. download your GFF3 file from ftp://ftp.ensemblgenomes.org/pub/ (I found also TAIR10 files here)
+2. download gff3ToGenePred from UCSC web site
+3. run gff3ToGenePred to convert your file to GenePred file format (= refFlat)
+4. run Picard CollectRnaSeqMetrics with this reference refFlat file.
