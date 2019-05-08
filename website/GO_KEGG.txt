@@ -1,1 +1,2 @@
 KEGG,GO http://www.webgestalt.org/option.php        (WEB-based GEne SeT AnaLysis Toolkit)
+KEGG available species and abbreviation: https://www.genome.jp/kegg/catalog/org_list.html
