@@ -1,0 +1,15 @@
+For example, let all users use conda and the software inside.
+First step:
+  # vi /etc/sudoers
+In the last line,add: export PATH="/home/hp/miniconda3/bin:$PATH"
+then :wq
+  # source ~/.bashrc
+ 
+Second step:
+  # chmod 777 -R /home/hp/miniconda3
+  
+Third step(enter the home directory of the normal user):
+  katniss@Workstation$ vi .bashrc
+In the last line,add: export PATH="/home/hp/miniconda3/bin:$PATH" 
+then :wq
+  katniss@Workstation$ source ~/.bashrc
