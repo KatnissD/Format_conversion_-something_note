@@ -1,9 +1,9 @@
 For example, let all users use conda and the software inside.
 First step:
   # vi /etc/sudoers
-In the last line,add: export PATH="/home/hp/miniconda3/bin:$PATH"
+In the last line,add: ALL     ALL=(root)      NOPASSWD:/home/hp/miniconda3/bin/conda
 then :wq
-  # source ~/.bashrc
+  # source /etc/sudoers
  
 Second step:
   # chmod 777 -R /home/hp/miniconda3
