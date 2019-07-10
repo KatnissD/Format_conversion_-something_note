@@ -1,0 +1,4 @@
+paired	hisat2 first --rna-strandness RF	stringtie first –--rf
+paired	hisat2 second --rna-strandness FR	stringtie second –--fr
+single	hisat2 first –rna-strandness R	stringtie first –--rf
+single	hisat2 second --rna-strandness F	stringtie second –--fr
