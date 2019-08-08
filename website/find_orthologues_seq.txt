@@ -1,0 +1,1 @@
+Database for obtaining orthologous sequences:    http://lbgi.fr/orthoinspectorv3
