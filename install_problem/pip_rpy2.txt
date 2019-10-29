@@ -1,0 +1,4 @@
+p: No package 'libffi' found
+s: $pip install --upgrade setuptools
+   $sudo apt-get install libffi-dev
+   $pip install rpy2
