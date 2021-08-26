@@ -1,0 +1,5 @@
+Adapter sequence: 
+https://github.com/csf-ngs/fastqc/blob/master/Contaminants/contaminant_list.txt
+
+common Illumina adapters: 
+https://github.com/vsbuffalo/scythe/blob/master/illumina_adapters.fa
