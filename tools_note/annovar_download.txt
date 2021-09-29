@@ -1,0 +1,1 @@
+$perl annotate_variation.pl -downdb -webfrom annovar gnomad_genome --buildver hg38 humandb/
