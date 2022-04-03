@@ -1,0 +1,11 @@
+1. SRA tools configuration
+
+$ vdb-config -i
+
+import  dbGaP repository key "*.ngc"
+
+2. download CART file(*.krt) from RUN selection
+
+3. run the command:
+
+$ prefetch *.krt
