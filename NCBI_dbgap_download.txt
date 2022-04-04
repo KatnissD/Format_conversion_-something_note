@@ -9,3 +9,9 @@ import  dbGaP repository key "*.ngc"
 3. run the command:
 
 $ prefetch *.krt
+
+4. Decryption "*.ncbi_enc" files
+
+enter /***/dbGaP-xxxx
+
+$vdb-decrypt  /***/files/
