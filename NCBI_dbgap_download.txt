@@ -10,8 +10,13 @@ import  dbGaP repository key "*.ngc"
 
 $ prefetch *.krt
 
-4. Decryption "*.ncbi_enc" files
+4. Decrypt "*.ncbi_enc" files
 
 enter /***/dbGaP-xxxx
 
 $vdb-decrypt  /***/files/
+
+5. Decrypt "*.sra" files
+
+enter /***/dbGaP-xxxx
+$ vdb-validate /***/sra/*.sra
