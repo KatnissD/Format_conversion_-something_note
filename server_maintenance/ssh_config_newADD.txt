@@ -1,0 +1,7 @@
+Host *
+User *
+PubkeyAcceptedAlgorithms +ssh-rsa
+PreferredAuthentications publickey,password
+HostKeyAlgorithms=+ssh-dss
+IdentityFile ~/.ssh/id_rsa
+Port *
