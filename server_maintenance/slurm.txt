@@ -1,0 +1,24 @@
+slurm😉
+
+check the node setting:
+xxxx$ scontrol show node
+
+check partition:
+xxxx$ sinfo
+
+run tasks:
+xxxx$ srun python xx.py
+xxxx$ srun -p partition_name -w node_name -n 36 --gres=gpu:8 --ntasks-per-node=8 --job-name=hello python xx.py
+
+check running situation:
+xxxx$ squeue
+xxxx$ squeue -u user_name
+
+check gpu situation:
+xxxx$ swatch node_name nv
+
+check cpu:
+xxxx$ swatch node_name top
+
+check memory:
+xxxx$ swatch node_name free
