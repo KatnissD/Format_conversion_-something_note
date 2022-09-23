@@ -9,6 +9,7 @@ xxxx$ sinfo
 run tasks:
 xxxx$ srun python xx.py
 xxxx$ srun -p partition_name -w node_name -n 36 --gres=gpu:8 --ntasks-per-node=8 --job-name=hello python xx.py
+xxxx$ srun srun -N 8 -l -n 60  Rscript cor_cub_diep_multicpu.R    # 8 nodes, 60 tasks
 
 check running situation:
 xxxx$ squeue
