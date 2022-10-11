@@ -23,3 +23,16 @@ xxxx$ swatch node_name top
 
 check memory:
 xxxx$ swatch node_name free
+
+run sbatch:
+xxxx$ sbatch xx.sh
+
+the head of xx.sh:
+
+#!/bin/bash
+#SBATCH -J ES
+#SBATCH -N 2
+#SBATCH --ntasks-per-node=30
+#SBATCH --mem=20G
+#SBATCH -o son.out
+#SBATCH -e son.err
