@@ -30,9 +30,9 @@ xxxx$ sbatch xx.sh
 the head of xx.sh:
 
 #!/bin/bash
-#SBATCH -J ES
+#SBATCH -J job_name
 #SBATCH -N 2
 #SBATCH --ntasks-per-node=30
 #SBATCH --mem=20G
-#SBATCH -o son.out
-#SBATCH -e son.err
+#SBATCH -o job.out
+#SBATCH -e job.err
