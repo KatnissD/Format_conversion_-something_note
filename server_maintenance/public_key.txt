@@ -1,0 +1,15 @@
+Use public key to log in.
+
+step 1：create the key (at local PC)
+
+    $ ssh-keygen
+    
+step 2：SCP the key to the workstation
+
+    $ scp id_rsa.pub root@142.93.198.56:/tmp
+    
+step 3: put the key to the authorized_keys (at workstation)
+
+    $ ssh root@142.93.198.56
+    $ cd /tmp/# cat id_rsa.pub >> ~/.ssh/authorized_keys
+    $ chmod 600 ~/.ssh/authorized_keys
