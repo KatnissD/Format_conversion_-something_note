@@ -1,0 +1,6 @@
+Solving the error: WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!
+
+method 1： delete the key information of the known_hosts file (the path is c/user/.ssh/known_hosts)
+method 2: use shh-keygen commend. for example, we want to remove the 172.16.152.209 log information:
+
+    ssh-keygen -R 172.16.152.209
