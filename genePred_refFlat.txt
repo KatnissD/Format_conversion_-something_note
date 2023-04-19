@@ -10,7 +10,7 @@ uint cdsEnd; "Coding region end"                                      cdsStart  
 uint exonCount; "Number of exons"                                     cdsEnd              7
 uint[exonCount] exonStarts; "Exon start positions"                    exonCount           8
 uint[exonCount] exonEnds; "Exon end positions" )                      exonStarts          9
-                                         			                          exonEnds            10
+                                         			         exonEnds            10
                                                                       gene symbol         11 (NCBI)
   	
 
