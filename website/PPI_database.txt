@@ -1,0 +1,5 @@
+1. STRING   https://string-db.org/
+2. IMEx     http://www.imexconsortium.org/
+3. IntAct   https://www.ebi.ac.uk/intact/home
+4. MINT     https://mint.bio.uniroma2.it/
+5. APID     http://cicblade.dep.usal.es:8080/APID/init.action
