@@ -3,6 +3,10 @@ vim
 
     :g/hello/d
 
+2. delete other lines that don't contain special characters(keep special symbol lines):
+
+    :v/hello/d
+
 
     
     
