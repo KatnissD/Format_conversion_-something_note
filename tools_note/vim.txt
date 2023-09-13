@@ -7,6 +7,11 @@ vim
 
     :v/hello/d
 
+3. keep the group content by '/(/)' and '\1\2', such as only keep "Aaosphaeria arxii CBS 175.79" from "--a-- 1273 1689 Aaosphaeria arxii CBS 175.79":
+
+    :%s/.*\d\s\(\w.*\)/\1/g
+
+
 
     
     
