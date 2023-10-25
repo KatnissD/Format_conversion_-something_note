@@ -36,3 +36,18 @@ the head of xx.sh:
 #SBATCH --mem=20G
 #SBATCH -o job.out
 #SBATCH -e job.err
+
+
+Using GPU like this:
+
+#!/bin/bash
+#SBATCH --job-name=em
+#SBATCH --output=em.out
+#SBATCH --error=em.err
+#SBATCH --partition=GPU-A40
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=10
+#SBATCH --nodelist=gpunode09
+#SBATCH --mem=20G
+
+
